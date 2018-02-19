@@ -21,6 +21,13 @@ public class Sommatore
 		return x+100;
 	}
 	
+	public static int somma200(int x)
+	{
+		for (int i = 0; i <200; i++) 
+			x++;
+		return x;
+	}
+	
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
