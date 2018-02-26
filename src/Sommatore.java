@@ -21,11 +21,9 @@ public class Sommatore
 		return x+100;
 	}
 	
-	public static int somma200(int x)
+	public static int somma1000(int x)
 	{
-		for (int i = 0; i <200; i++) 
-			x++;
-		return x;
+		return x+1000;
 	}
 	
 	public static void main(String[] args) 
@@ -36,7 +34,7 @@ public class Sommatore
 		System.out.println(somma10(x));
 		System.out.println(somma20(x));
 		System.out.println(somma100(x));
-		System.out.println(somma200(x));
+		System.out.println(somma1000(x));
 	}
 
 }
